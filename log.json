@@ -1,0 +1,910 @@
+- StackEvents:
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: 0eb5c7b0-8ab2-11ee-af75-0adc4715c12b
+    LogicalResourceId: niwanowa-rssfeed
+    PhysicalResourceId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    ResourceStatus: ROLLBACK_COMPLETE
+    ResourceType: AWS::CloudFormation::Stack
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:13:05.058000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: PutRSSFeedFunctionRole-DELETE_COMPLETE-2023-11-24T10:13:04.514Z
+    LogicalResourceId: PutRSSFeedFunctionRole
+    PhysicalResourceId: niwanowa-rssfeed-PutRSSFeedFunctionRole-SwiKZOSlaoxt
+    ResourceProperties: '{"ManagedPolicyArns":["arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"],"AssumeRolePolicyDocument":{"Version":"2012-10-17","Statement":[{"Action":["sts:AssumeRole"],"Effect":"Allow","Principal":{"Service":["lambda.amazonaws.com"]}}]},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: DELETE_COMPLETE
+    ResourceType: AWS::IAM::Role
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:13:04.514000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: PostRSSFeedFunctionRole-DELETE_COMPLETE-2023-11-24T10:13:04.138Z
+    LogicalResourceId: PostRSSFeedFunctionRole
+    PhysicalResourceId: niwanowa-rssfeed-PostRSSFeedFunctionRole-KjEhmkOQugr3
+    ResourceProperties: '{"ManagedPolicyArns":["arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"],"AssumeRolePolicyDocument":{"Version":"2012-10-17","Statement":[{"Action":["sts:AssumeRole"],"Effect":"Allow","Principal":{"Service":["lambda.amazonaws.com"]}}]},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: DELETE_COMPLETE
+    ResourceType: AWS::IAM::Role
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:13:04.138000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: GetRSSFeedFunctionRole-DELETE_COMPLETE-2023-11-24T10:13:04.040Z
+    LogicalResourceId: GetRSSFeedFunctionRole
+    PhysicalResourceId: niwanowa-rssfeed-GetRSSFeedFunctionRole-ejFRS1CjnDAL
+    ResourceProperties: '{"ManagedPolicyArns":["arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"],"AssumeRolePolicyDocument":{"Version":"2012-10-17","Statement":[{"Action":["sts:AssumeRole"],"Effect":"Allow","Principal":{"Service":["lambda.amazonaws.com"]}}]},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: DELETE_COMPLETE
+    ResourceType: AWS::IAM::Role
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:13:04.040000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: DeleteRSSFeedFunctionRole-DELETE_COMPLETE-2023-11-24T10:13:03.678Z
+    LogicalResourceId: DeleteRSSFeedFunctionRole
+    PhysicalResourceId: niwanowa-rssfeed-DeleteRSSFeedFunctionRole-TSBrrcmSOSQO
+    ResourceProperties: '{"ManagedPolicyArns":["arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"],"AssumeRolePolicyDocument":{"Version":"2012-10-17","Statement":[{"Action":["sts:AssumeRole"],"Effect":"Allow","Principal":{"Service":["lambda.amazonaws.com"]}}]},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: DELETE_COMPLETE
+    ResourceType: AWS::IAM::Role
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:13:03.678000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: PutRSSFeedFunctionRole-DELETE_IN_PROGRESS-2023-11-24T10:12:50.489Z
+    LogicalResourceId: PutRSSFeedFunctionRole
+    PhysicalResourceId: niwanowa-rssfeed-PutRSSFeedFunctionRole-SwiKZOSlaoxt
+    ResourceProperties: '{"ManagedPolicyArns":["arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"],"AssumeRolePolicyDocument":{"Version":"2012-10-17","Statement":[{"Action":["sts:AssumeRole"],"Effect":"Allow","Principal":{"Service":["lambda.amazonaws.com"]}}]},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: DELETE_IN_PROGRESS
+    ResourceType: AWS::IAM::Role
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:12:50.489000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: PostRSSFeedFunctionRole-DELETE_IN_PROGRESS-2023-11-24T10:12:50.464Z
+    LogicalResourceId: PostRSSFeedFunctionRole
+    PhysicalResourceId: niwanowa-rssfeed-PostRSSFeedFunctionRole-KjEhmkOQugr3
+    ResourceProperties: '{"ManagedPolicyArns":["arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"],"AssumeRolePolicyDocument":{"Version":"2012-10-17","Statement":[{"Action":["sts:AssumeRole"],"Effect":"Allow","Principal":{"Service":["lambda.amazonaws.com"]}}]},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: DELETE_IN_PROGRESS
+    ResourceType: AWS::IAM::Role
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:12:50.464000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: GetRSSFeedFunctionRole-DELETE_IN_PROGRESS-2023-11-24T10:12:50.254Z
+    LogicalResourceId: GetRSSFeedFunctionRole
+    PhysicalResourceId: niwanowa-rssfeed-GetRSSFeedFunctionRole-ejFRS1CjnDAL
+    ResourceProperties: '{"ManagedPolicyArns":["arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"],"AssumeRolePolicyDocument":{"Version":"2012-10-17","Statement":[{"Action":["sts:AssumeRole"],"Effect":"Allow","Principal":{"Service":["lambda.amazonaws.com"]}}]},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: DELETE_IN_PROGRESS
+    ResourceType: AWS::IAM::Role
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:12:50.254000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: DeleteRSSFeedFunctionRole-DELETE_IN_PROGRESS-2023-11-24T10:12:50.170Z
+    LogicalResourceId: DeleteRSSFeedFunctionRole
+    PhysicalResourceId: niwanowa-rssfeed-DeleteRSSFeedFunctionRole-TSBrrcmSOSQO
+    ResourceProperties: '{"ManagedPolicyArns":["arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"],"AssumeRolePolicyDocument":{"Version":"2012-10-17","Statement":[{"Action":["sts:AssumeRole"],"Effect":"Allow","Principal":{"Service":["lambda.amazonaws.com"]}}]},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: DELETE_IN_PROGRESS
+    ResourceType: AWS::IAM::Role
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:12:50.170000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: PutRSSFeedFunction-DELETE_COMPLETE-2023-11-24T10:12:49.973Z
+    LogicalResourceId: PutRSSFeedFunction
+    PhysicalResourceId: niwanowa-rssfeed-PutRSSFeedFunction-rUDHeTdCvqkH
+    ResourceProperties: '{"Role":"arn:aws:iam::339851681101:role/niwanowa-rssfeed-PutRSSFeedFunctionRole-SwiKZOSlaoxt","Runtime":"python3.11","Timeout":"3","Handler":"put.lambda_handler","Code":{"S3Bucket":"aws-sam-cli-managed-default-samclisourcebucket-1iak1zwc17un8","S3Key":"niwanowa-rssfeed/326b9f132b2a43b76eac245539be30d7"},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: DELETE_COMPLETE
+    ResourceType: AWS::Lambda::Function
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:12:49.973000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: PostRSSFeedFunction-DELETE_COMPLETE-2023-11-24T10:12:49.928Z
+    LogicalResourceId: PostRSSFeedFunction
+    PhysicalResourceId: niwanowa-rssfeed-PostRSSFeedFunction-YjGEpsld8tUH
+    ResourceProperties: '{"Role":"arn:aws:iam::339851681101:role/niwanowa-rssfeed-PostRSSFeedFunctionRole-KjEhmkOQugr3","Runtime":"python3.11","Timeout":"3","Handler":"post.lambda_handler","Code":{"S3Bucket":"aws-sam-cli-managed-default-samclisourcebucket-1iak1zwc17un8","S3Key":"niwanowa-rssfeed/326b9f132b2a43b76eac245539be30d7"},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: DELETE_COMPLETE
+    ResourceType: AWS::Lambda::Function
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:12:49.928000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: GetRSSFeedFunction-DELETE_COMPLETE-2023-11-24T10:12:49.728Z
+    LogicalResourceId: GetRSSFeedFunction
+    PhysicalResourceId: niwanowa-rssfeed-GetRSSFeedFunction-gxdtMAxAcEcc
+    ResourceProperties: '{"Role":"arn:aws:iam::339851681101:role/niwanowa-rssfeed-GetRSSFeedFunctionRole-ejFRS1CjnDAL","Runtime":"python3.11","Timeout":"3","Handler":"get.lambda_handler","Code":{"S3Bucket":"aws-sam-cli-managed-default-samclisourcebucket-1iak1zwc17un8","S3Key":"niwanowa-rssfeed/326b9f132b2a43b76eac245539be30d7"},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: DELETE_COMPLETE
+    ResourceType: AWS::Lambda::Function
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:12:49.728000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: DeleteRSSFeedFunction-DELETE_COMPLETE-2023-11-24T10:12:49.712Z
+    LogicalResourceId: DeleteRSSFeedFunction
+    PhysicalResourceId: niwanowa-rssfeed-DeleteRSSFeedFunction-TFjueFxXqdgJ
+    ResourceProperties: '{"Role":"arn:aws:iam::339851681101:role/niwanowa-rssfeed-DeleteRSSFeedFunctionRole-TSBrrcmSOSQO","Runtime":"python3.11","Timeout":"3","Handler":"delete.lambda_handler","Code":{"S3Bucket":"aws-sam-cli-managed-default-samclisourcebucket-1iak1zwc17un8","S3Key":"niwanowa-rssfeed/326b9f132b2a43b76eac245539be30d7"},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: DELETE_COMPLETE
+    ResourceType: AWS::Lambda::Function
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:12:49.712000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: PutRSSFeedFunction-DELETE_IN_PROGRESS-2023-11-24T10:12:43.904Z
+    LogicalResourceId: PutRSSFeedFunction
+    PhysicalResourceId: niwanowa-rssfeed-PutRSSFeedFunction-rUDHeTdCvqkH
+    ResourceProperties: '{"Role":"arn:aws:iam::339851681101:role/niwanowa-rssfeed-PutRSSFeedFunctionRole-SwiKZOSlaoxt","Runtime":"python3.11","Timeout":"3","Handler":"put.lambda_handler","Code":{"S3Bucket":"aws-sam-cli-managed-default-samclisourcebucket-1iak1zwc17un8","S3Key":"niwanowa-rssfeed/326b9f132b2a43b76eac245539be30d7"},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: DELETE_IN_PROGRESS
+    ResourceType: AWS::Lambda::Function
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:12:43.904000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: PostRSSFeedFunction-DELETE_IN_PROGRESS-2023-11-24T10:12:43.879Z
+    LogicalResourceId: PostRSSFeedFunction
+    PhysicalResourceId: niwanowa-rssfeed-PostRSSFeedFunction-YjGEpsld8tUH
+    ResourceProperties: '{"Role":"arn:aws:iam::339851681101:role/niwanowa-rssfeed-PostRSSFeedFunctionRole-KjEhmkOQugr3","Runtime":"python3.11","Timeout":"3","Handler":"post.lambda_handler","Code":{"S3Bucket":"aws-sam-cli-managed-default-samclisourcebucket-1iak1zwc17un8","S3Key":"niwanowa-rssfeed/326b9f132b2a43b76eac245539be30d7"},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: DELETE_IN_PROGRESS
+    ResourceType: AWS::Lambda::Function
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:12:43.879000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: DeleteRSSFeedFunction-DELETE_IN_PROGRESS-2023-11-24T10:12:43.879Z
+    LogicalResourceId: DeleteRSSFeedFunction
+    PhysicalResourceId: niwanowa-rssfeed-DeleteRSSFeedFunction-TFjueFxXqdgJ
+    ResourceProperties: '{"Role":"arn:aws:iam::339851681101:role/niwanowa-rssfeed-DeleteRSSFeedFunctionRole-TSBrrcmSOSQO","Runtime":"python3.11","Timeout":"3","Handler":"delete.lambda_handler","Code":{"S3Bucket":"aws-sam-cli-managed-default-samclisourcebucket-1iak1zwc17un8","S3Key":"niwanowa-rssfeed/326b9f132b2a43b76eac245539be30d7"},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: DELETE_IN_PROGRESS
+    ResourceType: AWS::Lambda::Function
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:12:43.879000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: GetRSSFeedFunction-DELETE_IN_PROGRESS-2023-11-24T10:12:43.871Z
+    LogicalResourceId: GetRSSFeedFunction
+    PhysicalResourceId: niwanowa-rssfeed-GetRSSFeedFunction-gxdtMAxAcEcc
+    ResourceProperties: '{"Role":"arn:aws:iam::339851681101:role/niwanowa-rssfeed-GetRSSFeedFunctionRole-ejFRS1CjnDAL","Runtime":"python3.11","Timeout":"3","Handler":"get.lambda_handler","Code":{"S3Bucket":"aws-sam-cli-managed-default-samclisourcebucket-1iak1zwc17un8","S3Key":"niwanowa-rssfeed/326b9f132b2a43b76eac245539be30d7"},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: DELETE_IN_PROGRESS
+    ResourceType: AWS::Lambda::Function
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:12:43.871000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: ApiGatewayAPI-DELETE_COMPLETE-2023-11-24T10:12:43.395Z
+    LogicalResourceId: ApiGatewayAPI
+    PhysicalResourceId: gygxyenfya
+    ResourceProperties: '{"Body":{"openapi":"3.0.0","paths":{"/{id}":{"options":{"summary":"CORS
+      support","responses":{"200":{"headers":{"Access-Control-Allow-Origin":{"schema":{"type":"string"}},"Access-Control-Allow-Methods":{"schema":{"type":"string"}}},"description":"Default
+      response for CORS method"}},"x-amazon-apigateway-integration":{"requestTemplates":{"application/json":"{\n  \"statusCode\"
+      : 200\n}\n"},"responses":{"default":{"responseParameters":{"method.response.header.Access-Control-Allow-Methods":"''DELETE,OPTIONS,PARAMETERS,PUT''","method.response.header.Access-Control-Allow-Origin":"''*''"},"responseTemplates":{"application/json":"{}\n"},"statusCode":"200"}},"type":"mock"}},"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true,"example":"1"}],"delete":{"summary":"?????RSSfeed?????API","responses":{"200":{"description":"Content
+      deleted from the RSS feed"}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-DeleteRSSFeedFunction-TFjueFxXqdgJ/invocations"}},"put":{"summary":"?????RSSfeed?????API","requestBody":{"content":{"text/plain":{"schema":{"type":"string","example":"Updated
+      Content"}}},"required":true},"responses":{"200":{"description":"Content updated
+      in the RSS feed"}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-PutRSSFeedFunction-rUDHeTdCvqkH/invocations"}}},"/":{"post":{"summary":"RSSFeed?????API","requestBody":{"content":{"application/json":{"schema":{"type":"object","required":["link"],"properties":{"link":{"type":"string","example":"http://yourwebsite.com"}}}}},"required":true},"responses":{"200":{"description":"Content
+      added to the RSS feed"}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-PostRSSFeedFunction-YjGEpsld8tUH/invocations"}},"get":{"summary":"RSSFeed?????API","responses":{"200":{"description":"Successful
+      response","content":{"application/xml":{"example":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rss
+      version=\"2.0\">\n  <channel>\n    <title>Your RSS Feed</title>\n    <link>http://yourwebsite.com</link>\n    <description>Your
+      feed description</description>\n  </channel>\n</rss>\n"}}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-GetRSSFeedFunction-gxdtMAxAcEcc/invocations"}}},"options":{"summary":"CORS
+      support","responses":{"200":{"headers":{"Access-Control-Allow-Origin":{"schema":{"type":"string"}},"Access-Control-Allow-Methods":{"schema":{"type":"string"}}},"description":"Default
+      response for CORS method"}},"x-amazon-apigateway-integration":{"requestTemplates":{"application/json":"{\n  \"statusCode\"
+      : 200\n}\n"},"responses":{"default":{"responseParameters":{"method.response.header.Access-Control-Allow-Methods":"''GET,OPTIONS,POST''","method.response.header.Access-Control-Allow-Origin":"''*''"},"responseTemplates":{"application/json":"{}\n"},"statusCode":"200"}},"type":"mock"}}}},"info":{"title":"niwanowa-rssfeed-api","version":"1.0.0"}}}'
+    ResourceStatus: DELETE_COMPLETE
+    ResourceType: AWS::ApiGateway::RestApi
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:12:43.395000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: ApiGatewayAPI-DELETE_IN_PROGRESS-2023-11-24T10:12:42.059Z
+    LogicalResourceId: ApiGatewayAPI
+    PhysicalResourceId: gygxyenfya
+    ResourceProperties: '{"Body":{"openapi":"3.0.0","paths":{"/{id}":{"options":{"summary":"CORS
+      support","responses":{"200":{"headers":{"Access-Control-Allow-Origin":{"schema":{"type":"string"}},"Access-Control-Allow-Methods":{"schema":{"type":"string"}}},"description":"Default
+      response for CORS method"}},"x-amazon-apigateway-integration":{"requestTemplates":{"application/json":"{\n  \"statusCode\"
+      : 200\n}\n"},"responses":{"default":{"responseParameters":{"method.response.header.Access-Control-Allow-Methods":"''DELETE,OPTIONS,PARAMETERS,PUT''","method.response.header.Access-Control-Allow-Origin":"''*''"},"responseTemplates":{"application/json":"{}\n"},"statusCode":"200"}},"type":"mock"}},"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true,"example":"1"}],"delete":{"summary":"?????RSSfeed?????API","responses":{"200":{"description":"Content
+      deleted from the RSS feed"}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-DeleteRSSFeedFunction-TFjueFxXqdgJ/invocations"}},"put":{"summary":"?????RSSfeed?????API","requestBody":{"content":{"text/plain":{"schema":{"type":"string","example":"Updated
+      Content"}}},"required":true},"responses":{"200":{"description":"Content updated
+      in the RSS feed"}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-PutRSSFeedFunction-rUDHeTdCvqkH/invocations"}}},"/":{"post":{"summary":"RSSFeed?????API","requestBody":{"content":{"application/json":{"schema":{"type":"object","required":["link"],"properties":{"link":{"type":"string","example":"http://yourwebsite.com"}}}}},"required":true},"responses":{"200":{"description":"Content
+      added to the RSS feed"}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-PostRSSFeedFunction-YjGEpsld8tUH/invocations"}},"get":{"summary":"RSSFeed?????API","responses":{"200":{"description":"Successful
+      response","content":{"application/xml":{"example":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rss
+      version=\"2.0\">\n  <channel>\n    <title>Your RSS Feed</title>\n    <link>http://yourwebsite.com</link>\n    <description>Your
+      feed description</description>\n  </channel>\n</rss>\n"}}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-GetRSSFeedFunction-gxdtMAxAcEcc/invocations"}}},"options":{"summary":"CORS
+      support","responses":{"200":{"headers":{"Access-Control-Allow-Origin":{"schema":{"type":"string"}},"Access-Control-Allow-Methods":{"schema":{"type":"string"}}},"description":"Default
+      response for CORS method"}},"x-amazon-apigateway-integration":{"requestTemplates":{"application/json":"{\n  \"statusCode\"
+      : 200\n}\n"},"responses":{"default":{"responseParameters":{"method.response.header.Access-Control-Allow-Methods":"''GET,OPTIONS,POST''","method.response.header.Access-Control-Allow-Origin":"''*''"},"responseTemplates":{"application/json":"{}\n"},"statusCode":"200"}},"type":"mock"}}}},"info":{"title":"niwanowa-rssfeed-api","version":"1.0.0"}}}'
+    ResourceStatus: DELETE_IN_PROGRESS
+    ResourceType: AWS::ApiGateway::RestApi
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:12:42.059000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: ApiGatewayAPIDeployment4ab6de6309-DELETE_COMPLETE-2023-11-24T10:12:41.552Z
+    LogicalResourceId: ApiGatewayAPIDeployment4ab6de6309
+    PhysicalResourceId: ''
+    ResourceProperties: '{"Description":"RestApi deployment id: 4ab6de63094f98ed64a33913e102d9ccb644c387","StageName":"Stage","RestApiId":"gygxyenfya"}'
+    ResourceStatus: DELETE_COMPLETE
+    ResourceType: AWS::ApiGateway::Deployment
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:12:41.552000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: PostRSSFeedFunctionPostRSSFeedPermissionProd-DELETE_COMPLETE-2023-11-24T10:10:19.081Z
+    LogicalResourceId: PostRSSFeedFunctionPostRSSFeedPermissionProd
+    PhysicalResourceId: niwanowa-rssfeed-PostRSSFeedFunctionPostRSSFeedPermissionProd-q7KSzVm3DrHH
+    ResourceProperties: '{"FunctionName":"niwanowa-rssfeed-PostRSSFeedFunction-YjGEpsld8tUH","Action":"lambda:InvokeFunction","SourceArn":"arn:aws:execute-api:ap-northeast-1:339851681101:gygxyenfya/*/POST/","Principal":"apigateway.amazonaws.com"}'
+    ResourceStatus: DELETE_COMPLETE
+    ResourceType: AWS::Lambda::Permission
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:10:19.081000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: PutRSSFeedFunctionPutRSSFeedPermissionProd-DELETE_COMPLETE-2023-11-24T10:10:18.877Z
+    LogicalResourceId: PutRSSFeedFunctionPutRSSFeedPermissionProd
+    PhysicalResourceId: niwanowa-rssfeed-PutRSSFeedFunctionPutRSSFeedPermissionProd-qt8fhLXkQ1dx
+    ResourceProperties: '{"FunctionName":"niwanowa-rssfeed-PutRSSFeedFunction-rUDHeTdCvqkH","Action":"lambda:InvokeFunction","SourceArn":"arn:aws:execute-api:ap-northeast-1:339851681101:gygxyenfya/*/PUT/*","Principal":"apigateway.amazonaws.com"}'
+    ResourceStatus: DELETE_COMPLETE
+    ResourceType: AWS::Lambda::Permission
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:10:18.877000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: DeleteRSSFeedFunctionDeleteRSSFeedPermissionProd-DELETE_COMPLETE-2023-11-24T10:10:18.811Z
+    LogicalResourceId: DeleteRSSFeedFunctionDeleteRSSFeedPermissionProd
+    PhysicalResourceId: niwanowa-rssfeed-DeleteRSSFeedFunctionDeleteRSSFeedPermissionProd-wbuS54QNXeuV
+    ResourceProperties: '{"FunctionName":"niwanowa-rssfeed-DeleteRSSFeedFunction-TFjueFxXqdgJ","Action":"lambda:InvokeFunction","SourceArn":"arn:aws:execute-api:ap-northeast-1:339851681101:gygxyenfya/*/DELETE/*","Principal":"apigateway.amazonaws.com"}'
+    ResourceStatus: DELETE_COMPLETE
+    ResourceType: AWS::Lambda::Permission
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:10:18.811000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: GetRSSFeedFunctionGetRSSFeedPermissionProd-DELETE_COMPLETE-2023-11-24T10:10:18.743Z
+    LogicalResourceId: GetRSSFeedFunctionGetRSSFeedPermissionProd
+    PhysicalResourceId: niwanowa-rssfeed-GetRSSFeedFunctionGetRSSFeedPermissionProd-y9JpRh5igpGI
+    ResourceProperties: '{"FunctionName":"niwanowa-rssfeed-GetRSSFeedFunction-gxdtMAxAcEcc","Action":"lambda:InvokeFunction","SourceArn":"arn:aws:execute-api:ap-northeast-1:339851681101:gygxyenfya/*/GET/","Principal":"apigateway.amazonaws.com"}'
+    ResourceStatus: DELETE_COMPLETE
+    ResourceType: AWS::Lambda::Permission
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:10:18.743000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: PostRSSFeedFunctionPostRSSFeedPermissionProd-DELETE_IN_PROGRESS-2023-11-24T10:10:17.797Z
+    LogicalResourceId: PostRSSFeedFunctionPostRSSFeedPermissionProd
+    PhysicalResourceId: niwanowa-rssfeed-PostRSSFeedFunctionPostRSSFeedPermissionProd-q7KSzVm3DrHH
+    ResourceProperties: '{"FunctionName":"niwanowa-rssfeed-PostRSSFeedFunction-YjGEpsld8tUH","Action":"lambda:InvokeFunction","SourceArn":"arn:aws:execute-api:ap-northeast-1:339851681101:gygxyenfya/*/POST/","Principal":"apigateway.amazonaws.com"}'
+    ResourceStatus: DELETE_IN_PROGRESS
+    ResourceType: AWS::Lambda::Permission
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:10:17.797000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: PutRSSFeedFunctionPutRSSFeedPermissionProd-DELETE_IN_PROGRESS-2023-11-24T10:10:17.674Z
+    LogicalResourceId: PutRSSFeedFunctionPutRSSFeedPermissionProd
+    PhysicalResourceId: niwanowa-rssfeed-PutRSSFeedFunctionPutRSSFeedPermissionProd-qt8fhLXkQ1dx
+    ResourceProperties: '{"FunctionName":"niwanowa-rssfeed-PutRSSFeedFunction-rUDHeTdCvqkH","Action":"lambda:InvokeFunction","SourceArn":"arn:aws:execute-api:ap-northeast-1:339851681101:gygxyenfya/*/PUT/*","Principal":"apigateway.amazonaws.com"}'
+    ResourceStatus: DELETE_IN_PROGRESS
+    ResourceType: AWS::Lambda::Permission
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:10:17.674000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: DeleteRSSFeedFunctionDeleteRSSFeedPermissionProd-DELETE_IN_PROGRESS-2023-11-24T10:10:17.649Z
+    LogicalResourceId: DeleteRSSFeedFunctionDeleteRSSFeedPermissionProd
+    PhysicalResourceId: niwanowa-rssfeed-DeleteRSSFeedFunctionDeleteRSSFeedPermissionProd-wbuS54QNXeuV
+    ResourceProperties: '{"FunctionName":"niwanowa-rssfeed-DeleteRSSFeedFunction-TFjueFxXqdgJ","Action":"lambda:InvokeFunction","SourceArn":"arn:aws:execute-api:ap-northeast-1:339851681101:gygxyenfya/*/DELETE/*","Principal":"apigateway.amazonaws.com"}'
+    ResourceStatus: DELETE_IN_PROGRESS
+    ResourceType: AWS::Lambda::Permission
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:10:17.649000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: GetRSSFeedFunctionGetRSSFeedPermissionProd-DELETE_IN_PROGRESS-2023-11-24T10:10:17.617Z
+    LogicalResourceId: GetRSSFeedFunctionGetRSSFeedPermissionProd
+    PhysicalResourceId: niwanowa-rssfeed-GetRSSFeedFunctionGetRSSFeedPermissionProd-y9JpRh5igpGI
+    ResourceProperties: '{"FunctionName":"niwanowa-rssfeed-GetRSSFeedFunction-gxdtMAxAcEcc","Action":"lambda:InvokeFunction","SourceArn":"arn:aws:execute-api:ap-northeast-1:339851681101:gygxyenfya/*/GET/","Principal":"apigateway.amazonaws.com"}'
+    ResourceStatus: DELETE_IN_PROGRESS
+    ResourceType: AWS::Lambda::Permission
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:10:17.617000+00:00'
+  - ClientRequestToken: Console-StackRollback-a3f0a355-db8a-4dde-50d6-2b7c24abcd2f
+    EventId: a900f200-8ab1-11ee-baeb-0af0bf7b414d
+    LogicalResourceId: niwanowa-rssfeed
+    PhysicalResourceId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    ResourceStatus: ROLLBACK_IN_PROGRESS
+    ResourceStatusReason: User Initiated Rollback
+    ResourceType: AWS::CloudFormation::Stack
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T10:10:14.415000+00:00'
+  - EventId: 92951780-8aa7-11ee-8ec6-0ee060c88fbd
+    LogicalResourceId: niwanowa-rssfeed
+    PhysicalResourceId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    ResourceStatus: UPDATE_FAILED
+    ResourceStatusReason: 'The following resource(s) failed to create: [ApiGatewayAPIDeployment4ab6de6309]. '
+    ResourceType: AWS::CloudFormation::Stack
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:58:01.691000+00:00'
+  - EventId: ApiGatewayAPIDeployment4ab6de6309-CREATE_FAILED-2023-11-24T08:57:59.520Z
+    LogicalResourceId: ApiGatewayAPIDeployment4ab6de6309
+    PhysicalResourceId: ''
+    ResourceProperties: '{"Description":"RestApi deployment id: 4ab6de63094f98ed64a33913e102d9ccb644c387","StageName":"Stage","RestApiId":"gygxyenfya"}'
+    ResourceStatus: CREATE_FAILED
+    ResourceStatusReason: 'Resource handler returned message: "No integration defined
+      for method (Service: ApiGateway, Status Code: 400, Request ID: 4c21d9ed-6a1a-4fe1-abb5-c82fe1d26bea)"
+      (RequestToken: 1681d24c-941d-a025-db39-59ac2efd9bd7, HandlerErrorCode: InvalidRequest)'
+    ResourceType: AWS::ApiGateway::Deployment
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:57:59.520000+00:00'
+  - EventId: ApiGatewayAPIDeployment4ab6de6309-CREATE_IN_PROGRESS-2023-11-24T08:57:57.930Z
+    LogicalResourceId: ApiGatewayAPIDeployment4ab6de6309
+    PhysicalResourceId: ''
+    ResourceProperties: '{"Description":"RestApi deployment id: 4ab6de63094f98ed64a33913e102d9ccb644c387","StageName":"Stage","RestApiId":"gygxyenfya"}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceType: AWS::ApiGateway::Deployment
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:57:57.930000+00:00'
+  - EventId: ApiGatewayAPIDeployment4ab6de6309-9d02e1e5-73ce-4423-ae8e-26e381af6f62
+    LogicalResourceId: ApiGatewayAPIDeployment4ab6de6309
+    PhysicalResourceId: ''
+    ResourceStatus: DELETE_COMPLETE
+    ResourceStatusReason: Delete succeeded for the resources that failed to create.
+    ResourceType: AWS::ApiGateway::Deployment
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:57:55.828000+00:00'
+  - EventId: 3a2d1a70-8aa7-11ee-98f0-0e0ef832e46b
+    LogicalResourceId: niwanowa-rssfeed
+    PhysicalResourceId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    ResourceStatus: UPDATE_IN_PROGRESS
+    ResourceStatusReason: User Initiated
+    ResourceType: AWS::CloudFormation::Stack
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:55:33.522000+00:00'
+  - EventId: 7cca48e0-8aa6-11ee-a58c-0e1501767981
+    LogicalResourceId: niwanowa-rssfeed
+    PhysicalResourceId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    ResourceStatus: UPDATE_FAILED
+    ResourceStatusReason: 'The following resource(s) failed to create: [ApiGatewayAPIDeployment4ab6de6309]. '
+    ResourceType: AWS::CloudFormation::Stack
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:50:15.647000+00:00'
+  - EventId: ApiGatewayAPIDeployment4ab6de6309-CREATE_FAILED-2023-11-24T08:50:13.218Z
+    LogicalResourceId: ApiGatewayAPIDeployment4ab6de6309
+    PhysicalResourceId: ''
+    ResourceProperties: '{"Description":"RestApi deployment id: 4ab6de63094f98ed64a33913e102d9ccb644c387","StageName":"Stage","RestApiId":"gygxyenfya"}'
+    ResourceStatus: CREATE_FAILED
+    ResourceStatusReason: 'Resource handler returned message: "No integration defined
+      for method (Service: ApiGateway, Status Code: 400, Request ID: 3a7ea2f0-aa97-449d-9e94-b60feb050f89)"
+      (RequestToken: ccde4cab-456a-92f7-4af3-b16e768a6eb1, HandlerErrorCode: InvalidRequest)'
+    ResourceType: AWS::ApiGateway::Deployment
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:50:13.218000+00:00'
+  - EventId: ApiGatewayAPIDeployment4ab6de6309-CREATE_IN_PROGRESS-2023-11-24T08:50:11.741Z
+    LogicalResourceId: ApiGatewayAPIDeployment4ab6de6309
+    PhysicalResourceId: ''
+    ResourceProperties: '{"Description":"RestApi deployment id: 4ab6de63094f98ed64a33913e102d9ccb644c387","StageName":"Stage","RestApiId":"gygxyenfya"}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceType: AWS::ApiGateway::Deployment
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:50:11.741000+00:00'
+  - EventId: ApiGatewayAPI-UPDATE_COMPLETE-2023-11-24T08:50:11.179Z
+    LogicalResourceId: ApiGatewayAPI
+    PhysicalResourceId: gygxyenfya
+    ResourceProperties: '{"Body":{"openapi":"3.0.0","paths":{"/{id}":{"options":{"summary":"CORS
+      support","responses":{"200":{"headers":{"Access-Control-Allow-Origin":{"schema":{"type":"string"}},"Access-Control-Allow-Methods":{"schema":{"type":"string"}}},"description":"Default
+      response for CORS method"}},"x-amazon-apigateway-integration":{"requestTemplates":{"application/json":"{\n  \"statusCode\"
+      : 200\n}\n"},"responses":{"default":{"responseParameters":{"method.response.header.Access-Control-Allow-Methods":"''DELETE,OPTIONS,PARAMETERS,PUT''","method.response.header.Access-Control-Allow-Origin":"''*''"},"responseTemplates":{"application/json":"{}\n"},"statusCode":"200"}},"type":"mock"}},"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true,"example":"1"}],"delete":{"summary":"?????RSSfeed?????API","responses":{"200":{"description":"Content
+      deleted from the RSS feed"}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-DeleteRSSFeedFunction-TFjueFxXqdgJ/invocations"}},"put":{"summary":"?????RSSfeed?????API","requestBody":{"content":{"text/plain":{"schema":{"type":"string","example":"Updated
+      Content"}}},"required":true},"responses":{"200":{"description":"Content updated
+      in the RSS feed"}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-PutRSSFeedFunction-rUDHeTdCvqkH/invocations"}}},"/":{"post":{"summary":"RSSFeed?????API","requestBody":{"content":{"application/json":{"schema":{"type":"object","required":["link"],"properties":{"link":{"type":"string","example":"http://yourwebsite.com"}}}}},"required":true},"responses":{"200":{"description":"Content
+      added to the RSS feed"}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-PostRSSFeedFunction-YjGEpsld8tUH/invocations"}},"get":{"summary":"RSSFeed?????API","responses":{"200":{"description":"Successful
+      response","content":{"application/xml":{"example":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rss
+      version=\"2.0\">\n  <channel>\n    <title>Your RSS Feed</title>\n    <link>http://yourwebsite.com</link>\n    <description>Your
+      feed description</description>\n  </channel>\n</rss>\n"}}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-GetRSSFeedFunction-gxdtMAxAcEcc/invocations"}}},"options":{"summary":"CORS
+      support","responses":{"200":{"headers":{"Access-Control-Allow-Origin":{"schema":{"type":"string"}},"Access-Control-Allow-Methods":{"schema":{"type":"string"}}},"description":"Default
+      response for CORS method"}},"x-amazon-apigateway-integration":{"requestTemplates":{"application/json":"{\n  \"statusCode\"
+      : 200\n}\n"},"responses":{"default":{"responseParameters":{"method.response.header.Access-Control-Allow-Methods":"''GET,OPTIONS,POST''","method.response.header.Access-Control-Allow-Origin":"''*''"},"responseTemplates":{"application/json":"{}\n"},"statusCode":"200"}},"type":"mock"}}}},"info":{"title":"niwanowa-rssfeed-api","version":"1.0.0"}}}'
+    ResourceStatus: UPDATE_COMPLETE
+    ResourceType: AWS::ApiGateway::RestApi
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:50:11.179000+00:00'
+  - EventId: ApiGatewayAPI-UPDATE_IN_PROGRESS-2023-11-24T08:50:08.424Z
+    LogicalResourceId: ApiGatewayAPI
+    PhysicalResourceId: gygxyenfya
+    ResourceProperties: '{"Body":{"openapi":"3.0.0","paths":{"/{id}":{"options":{"summary":"CORS
+      support","responses":{"200":{"headers":{"Access-Control-Allow-Origin":{"schema":{"type":"string"}},"Access-Control-Allow-Methods":{"schema":{"type":"string"}}},"description":"Default
+      response for CORS method"}},"x-amazon-apigateway-integration":{"requestTemplates":{"application/json":"{\n  \"statusCode\"
+      : 200\n}\n"},"responses":{"default":{"responseParameters":{"method.response.header.Access-Control-Allow-Methods":"''DELETE,OPTIONS,PARAMETERS,PUT''","method.response.header.Access-Control-Allow-Origin":"''*''"},"responseTemplates":{"application/json":"{}\n"},"statusCode":"200"}},"type":"mock"}},"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true,"example":"1"}],"delete":{"summary":"?????RSSfeed?????API","responses":{"200":{"description":"Content
+      deleted from the RSS feed"}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-DeleteRSSFeedFunction-TFjueFxXqdgJ/invocations"}},"put":{"summary":"?????RSSfeed?????API","requestBody":{"content":{"text/plain":{"schema":{"type":"string","example":"Updated
+      Content"}}},"required":true},"responses":{"200":{"description":"Content updated
+      in the RSS feed"}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-PutRSSFeedFunction-rUDHeTdCvqkH/invocations"}}},"/":{"post":{"summary":"RSSFeed?????API","requestBody":{"content":{"application/json":{"schema":{"type":"object","required":["link"],"properties":{"link":{"type":"string","example":"http://yourwebsite.com"}}}}},"required":true},"responses":{"200":{"description":"Content
+      added to the RSS feed"}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-PostRSSFeedFunction-YjGEpsld8tUH/invocations"}},"get":{"summary":"RSSFeed?????API","responses":{"200":{"description":"Successful
+      response","content":{"application/xml":{"example":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rss
+      version=\"2.0\">\n  <channel>\n    <title>Your RSS Feed</title>\n    <link>http://yourwebsite.com</link>\n    <description>Your
+      feed description</description>\n  </channel>\n</rss>\n"}}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-GetRSSFeedFunction-gxdtMAxAcEcc/invocations"}}},"options":{"summary":"CORS
+      support","responses":{"200":{"headers":{"Access-Control-Allow-Origin":{"schema":{"type":"string"}},"Access-Control-Allow-Methods":{"schema":{"type":"string"}}},"description":"Default
+      response for CORS method"}},"x-amazon-apigateway-integration":{"requestTemplates":{"application/json":"{\n  \"statusCode\"
+      : 200\n}\n"},"responses":{"default":{"responseParameters":{"method.response.header.Access-Control-Allow-Methods":"''GET,OPTIONS,POST''","method.response.header.Access-Control-Allow-Origin":"''*''"},"responseTemplates":{"application/json":"{}\n"},"statusCode":"200"}},"type":"mock"}}}},"info":{"title":"niwanowa-rssfeed-api","version":"1.0.0"}}}'
+    ResourceStatus: UPDATE_IN_PROGRESS
+    ResourceType: AWS::ApiGateway::RestApi
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:50:08.424000+00:00'
+  - EventId: ApiGatewayAPIDeployment620e04a548-59494a5d-841d-4bf3-9a9c-d2f56890184d
+    LogicalResourceId: ApiGatewayAPIDeployment620e04a548
+    PhysicalResourceId: ''
+    ResourceStatus: DELETE_COMPLETE
+    ResourceStatusReason: Delete succeeded for the resources that failed to create.
+    ResourceType: AWS::ApiGateway::Deployment
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:50:04.536000+00:00'
+  - EventId: 2a405f10-8aa6-11ee-bb06-0e0e2d7f6e97
+    LogicalResourceId: niwanowa-rssfeed
+    PhysicalResourceId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    ResourceStatus: UPDATE_IN_PROGRESS
+    ResourceStatusReason: User Initiated
+    ResourceType: AWS::CloudFormation::Stack
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:47:57.307000+00:00'
+  - EventId: 599fb5e0-8aa5-11ee-a58c-0e1501767981
+    LogicalResourceId: niwanowa-rssfeed
+    PhysicalResourceId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    ResourceStatus: CREATE_FAILED
+    ResourceStatusReason: 'The following resource(s) failed to create: [ApiGatewayAPIDeployment620e04a548]. '
+    ResourceType: AWS::CloudFormation::Stack
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:42:07.129000+00:00'
+  - EventId: PutRSSFeedFunctionPutRSSFeedPermissionProd-CREATE_COMPLETE-2023-11-24T08:42:06.521Z
+    LogicalResourceId: PutRSSFeedFunctionPutRSSFeedPermissionProd
+    PhysicalResourceId: niwanowa-rssfeed-PutRSSFeedFunctionPutRSSFeedPermissionProd-qt8fhLXkQ1dx
+    ResourceProperties: '{"FunctionName":"niwanowa-rssfeed-PutRSSFeedFunction-rUDHeTdCvqkH","Action":"lambda:InvokeFunction","SourceArn":"arn:aws:execute-api:ap-northeast-1:339851681101:gygxyenfya/*/PUT/*","Principal":"apigateway.amazonaws.com"}'
+    ResourceStatus: CREATE_COMPLETE
+    ResourceType: AWS::Lambda::Permission
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:42:06.521000+00:00'
+  - EventId: PostRSSFeedFunctionPostRSSFeedPermissionProd-CREATE_COMPLETE-2023-11-24T08:42:06.508Z
+    LogicalResourceId: PostRSSFeedFunctionPostRSSFeedPermissionProd
+    PhysicalResourceId: niwanowa-rssfeed-PostRSSFeedFunctionPostRSSFeedPermissionProd-q7KSzVm3DrHH
+    ResourceProperties: '{"FunctionName":"niwanowa-rssfeed-PostRSSFeedFunction-YjGEpsld8tUH","Action":"lambda:InvokeFunction","SourceArn":"arn:aws:execute-api:ap-northeast-1:339851681101:gygxyenfya/*/POST/","Principal":"apigateway.amazonaws.com"}'
+    ResourceStatus: CREATE_COMPLETE
+    ResourceType: AWS::Lambda::Permission
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:42:06.508000+00:00'
+  - EventId: GetRSSFeedFunctionGetRSSFeedPermissionProd-CREATE_COMPLETE-2023-11-24T08:42:06.490Z
+    LogicalResourceId: GetRSSFeedFunctionGetRSSFeedPermissionProd
+    PhysicalResourceId: niwanowa-rssfeed-GetRSSFeedFunctionGetRSSFeedPermissionProd-y9JpRh5igpGI
+    ResourceProperties: '{"FunctionName":"niwanowa-rssfeed-GetRSSFeedFunction-gxdtMAxAcEcc","Action":"lambda:InvokeFunction","SourceArn":"arn:aws:execute-api:ap-northeast-1:339851681101:gygxyenfya/*/GET/","Principal":"apigateway.amazonaws.com"}'
+    ResourceStatus: CREATE_COMPLETE
+    ResourceType: AWS::Lambda::Permission
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:42:06.490000+00:00'
+  - EventId: ApiGatewayAPIDeployment620e04a548-CREATE_FAILED-2023-11-24T08:42:06.410Z
+    LogicalResourceId: ApiGatewayAPIDeployment620e04a548
+    PhysicalResourceId: ''
+    ResourceProperties: '{"Description":"RestApi deployment id: 620e04a548ca1fcb1e9953dbf8766207ab8deb7a","StageName":"Stage","RestApiId":"gygxyenfya"}'
+    ResourceStatus: CREATE_FAILED
+    ResourceStatusReason: 'Resource handler returned message: "No integration defined
+      for method (Service: ApiGateway, Status Code: 400, Request ID: 26c518d4-0a5b-4e5f-832d-ae0beafb3814)"
+      (RequestToken: 2216dbad-76f9-8508-95a5-d77408723582, HandlerErrorCode: InvalidRequest)'
+    ResourceType: AWS::ApiGateway::Deployment
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:42:06.410000+00:00'
+  - EventId: DeleteRSSFeedFunctionDeleteRSSFeedPermissionProd-CREATE_COMPLETE-2023-11-24T08:42:06.325Z
+    LogicalResourceId: DeleteRSSFeedFunctionDeleteRSSFeedPermissionProd
+    PhysicalResourceId: niwanowa-rssfeed-DeleteRSSFeedFunctionDeleteRSSFeedPermissionProd-wbuS54QNXeuV
+    ResourceProperties: '{"FunctionName":"niwanowa-rssfeed-DeleteRSSFeedFunction-TFjueFxXqdgJ","Action":"lambda:InvokeFunction","SourceArn":"arn:aws:execute-api:ap-northeast-1:339851681101:gygxyenfya/*/DELETE/*","Principal":"apigateway.amazonaws.com"}'
+    ResourceStatus: CREATE_COMPLETE
+    ResourceType: AWS::Lambda::Permission
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:42:06.325000+00:00'
+  - EventId: PostRSSFeedFunctionPostRSSFeedPermissionProd-CREATE_IN_PROGRESS-2023-11-24T08:42:06.181Z
+    LogicalResourceId: PostRSSFeedFunctionPostRSSFeedPermissionProd
+    PhysicalResourceId: niwanowa-rssfeed-PostRSSFeedFunctionPostRSSFeedPermissionProd-q7KSzVm3DrHH
+    ResourceProperties: '{"FunctionName":"niwanowa-rssfeed-PostRSSFeedFunction-YjGEpsld8tUH","Action":"lambda:InvokeFunction","SourceArn":"arn:aws:execute-api:ap-northeast-1:339851681101:gygxyenfya/*/POST/","Principal":"apigateway.amazonaws.com"}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceStatusReason: Resource creation Initiated
+    ResourceType: AWS::Lambda::Permission
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:42:06.181000+00:00'
+  - EventId: GetRSSFeedFunctionGetRSSFeedPermissionProd-CREATE_IN_PROGRESS-2023-11-24T08:42:06.164Z
+    LogicalResourceId: GetRSSFeedFunctionGetRSSFeedPermissionProd
+    PhysicalResourceId: niwanowa-rssfeed-GetRSSFeedFunctionGetRSSFeedPermissionProd-y9JpRh5igpGI
+    ResourceProperties: '{"FunctionName":"niwanowa-rssfeed-GetRSSFeedFunction-gxdtMAxAcEcc","Action":"lambda:InvokeFunction","SourceArn":"arn:aws:execute-api:ap-northeast-1:339851681101:gygxyenfya/*/GET/","Principal":"apigateway.amazonaws.com"}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceStatusReason: Resource creation Initiated
+    ResourceType: AWS::Lambda::Permission
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:42:06.164000+00:00'
+  - EventId: PutRSSFeedFunctionPutRSSFeedPermissionProd-CREATE_IN_PROGRESS-2023-11-24T08:42:06.163Z
+    LogicalResourceId: PutRSSFeedFunctionPutRSSFeedPermissionProd
+    PhysicalResourceId: niwanowa-rssfeed-PutRSSFeedFunctionPutRSSFeedPermissionProd-qt8fhLXkQ1dx
+    ResourceProperties: '{"FunctionName":"niwanowa-rssfeed-PutRSSFeedFunction-rUDHeTdCvqkH","Action":"lambda:InvokeFunction","SourceArn":"arn:aws:execute-api:ap-northeast-1:339851681101:gygxyenfya/*/PUT/*","Principal":"apigateway.amazonaws.com"}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceStatusReason: Resource creation Initiated
+    ResourceType: AWS::Lambda::Permission
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:42:06.163000+00:00'
+  - EventId: DeleteRSSFeedFunctionDeleteRSSFeedPermissionProd-CREATE_IN_PROGRESS-2023-11-24T08:42:05.995Z
+    LogicalResourceId: DeleteRSSFeedFunctionDeleteRSSFeedPermissionProd
+    PhysicalResourceId: niwanowa-rssfeed-DeleteRSSFeedFunctionDeleteRSSFeedPermissionProd-wbuS54QNXeuV
+    ResourceProperties: '{"FunctionName":"niwanowa-rssfeed-DeleteRSSFeedFunction-TFjueFxXqdgJ","Action":"lambda:InvokeFunction","SourceArn":"arn:aws:execute-api:ap-northeast-1:339851681101:gygxyenfya/*/DELETE/*","Principal":"apigateway.amazonaws.com"}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceStatusReason: Resource creation Initiated
+    ResourceType: AWS::Lambda::Permission
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:42:05.995000+00:00'
+  - EventId: PutRSSFeedFunctionPutRSSFeedPermissionProd-CREATE_IN_PROGRESS-2023-11-24T08:42:04.999Z
+    LogicalResourceId: PutRSSFeedFunctionPutRSSFeedPermissionProd
+    PhysicalResourceId: ''
+    ResourceProperties: '{"FunctionName":"niwanowa-rssfeed-PutRSSFeedFunction-rUDHeTdCvqkH","Action":"lambda:InvokeFunction","SourceArn":"arn:aws:execute-api:ap-northeast-1:339851681101:gygxyenfya/*/PUT/*","Principal":"apigateway.amazonaws.com"}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceType: AWS::Lambda::Permission
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:42:04.999000+00:00'
+  - EventId: ApiGatewayAPIDeployment620e04a548-CREATE_IN_PROGRESS-2023-11-24T08:42:04.895Z
+    LogicalResourceId: ApiGatewayAPIDeployment620e04a548
+    PhysicalResourceId: ''
+    ResourceProperties: '{"Description":"RestApi deployment id: 620e04a548ca1fcb1e9953dbf8766207ab8deb7a","StageName":"Stage","RestApiId":"gygxyenfya"}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceType: AWS::ApiGateway::Deployment
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:42:04.895000+00:00'
+  - EventId: GetRSSFeedFunctionGetRSSFeedPermissionProd-CREATE_IN_PROGRESS-2023-11-24T08:42:04.870Z
+    LogicalResourceId: GetRSSFeedFunctionGetRSSFeedPermissionProd
+    PhysicalResourceId: ''
+    ResourceProperties: '{"FunctionName":"niwanowa-rssfeed-GetRSSFeedFunction-gxdtMAxAcEcc","Action":"lambda:InvokeFunction","SourceArn":"arn:aws:execute-api:ap-northeast-1:339851681101:gygxyenfya/*/GET/","Principal":"apigateway.amazonaws.com"}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceType: AWS::Lambda::Permission
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:42:04.870000+00:00'
+  - EventId: PostRSSFeedFunctionPostRSSFeedPermissionProd-CREATE_IN_PROGRESS-2023-11-24T08:42:04.860Z
+    LogicalResourceId: PostRSSFeedFunctionPostRSSFeedPermissionProd
+    PhysicalResourceId: ''
+    ResourceProperties: '{"FunctionName":"niwanowa-rssfeed-PostRSSFeedFunction-YjGEpsld8tUH","Action":"lambda:InvokeFunction","SourceArn":"arn:aws:execute-api:ap-northeast-1:339851681101:gygxyenfya/*/POST/","Principal":"apigateway.amazonaws.com"}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceType: AWS::Lambda::Permission
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:42:04.860000+00:00'
+  - EventId: DeleteRSSFeedFunctionDeleteRSSFeedPermissionProd-CREATE_IN_PROGRESS-2023-11-24T08:42:04.833Z
+    LogicalResourceId: DeleteRSSFeedFunctionDeleteRSSFeedPermissionProd
+    PhysicalResourceId: ''
+    ResourceProperties: '{"FunctionName":"niwanowa-rssfeed-DeleteRSSFeedFunction-TFjueFxXqdgJ","Action":"lambda:InvokeFunction","SourceArn":"arn:aws:execute-api:ap-northeast-1:339851681101:gygxyenfya/*/DELETE/*","Principal":"apigateway.amazonaws.com"}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceType: AWS::Lambda::Permission
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:42:04.833000+00:00'
+  - EventId: ApiGatewayAPI-CREATE_COMPLETE-2023-11-24T08:42:04.285Z
+    LogicalResourceId: ApiGatewayAPI
+    PhysicalResourceId: gygxyenfya
+    ResourceProperties: '{"Body":{"openapi":"3.0.0","paths":{"/{id}":{"options":{"summary":"CORS
+      support","responses":{"200":{"headers":{"Access-Control-Allow-Origin":{"schema":{"type":"string"}},"Access-Control-Allow-Methods":{"schema":{"type":"string"}}},"description":"Default
+      response for CORS method"}},"x-amazon-apigateway-integration":{"requestTemplates":{"application/json":"{\n  \"statusCode\"
+      : 200\n}\n"},"responses":{"default":{"responseParameters":{"method.response.header.Access-Control-Allow-Methods":"''DELETE,OPTIONS,PARAMETERS,PUT''","method.response.header.Access-Control-Allow-Origin":"''*''"},"responseTemplates":{"application/json":"{}\n"},"statusCode":"200"}},"type":"mock"}},"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true,"example":"1"}],"delete":{"summary":"?????RSSfeed?????API","responses":{"200":{"description":"Content
+      deleted from the RSS feed"}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-DeleteRSSFeedFunction-TFjueFxXqdgJ/invocations"}},"put":{"summary":"?????RSSfeed?????API","requestBody":{"content":{"text/plain":{"schema":{"type":"string","example":"Updated
+      Content"}}},"required":true},"responses":{"200":{"description":"Content updated
+      in the RSS feed"}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-PutRSSFeedFunction-rUDHeTdCvqkH/invocations"}}},"/":{"post":{"summary":"RSSFeed?????API","requestBody":{"content":{"application/json":{"schema":{"type":"object","required":["link"],"properties":{"link":{"type":"string","example":"http://yourwebsite.com"}}}}},"required":true},"responses":{"200":{"description":"Content
+      added to the RSS feed"}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-PostRSSFeedFunction-YjGEpsld8tUH/invocations"}},"get":{"summary":"RSSFeed?????API","responses":{"200":{"description":"Successful
+      response","x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-GetRSSFeedFunction-gxdtMAxAcEcc/invocations"},"content":{"application/xml":{"example":"<?xml
+      version=\"1.0\" encoding=\"UTF-8\"?>\n<rss version=\"2.0\">\n  <channel>\n    <title>Your
+      RSS Feed</title>\n    <link>http://yourwebsite.com</link>\n    <description>Your
+      feed description</description>\n  </channel>\n</rss>\n"}}}}},"options":{"summary":"CORS
+      support","responses":{"200":{"headers":{"Access-Control-Allow-Origin":{"schema":{"type":"string"}},"Access-Control-Allow-Methods":{"schema":{"type":"string"}}},"description":"Default
+      response for CORS method"}},"x-amazon-apigateway-integration":{"requestTemplates":{"application/json":"{\n  \"statusCode\"
+      : 200\n}\n"},"responses":{"default":{"responseParameters":{"method.response.header.Access-Control-Allow-Methods":"''GET,OPTIONS,POST''","method.response.header.Access-Control-Allow-Origin":"''*''"},"responseTemplates":{"application/json":"{}\n"},"statusCode":"200"}},"type":"mock"}}}},"info":{"title":"niwanowa-rssfeed-api","version":"1.0.0"}}}'
+    ResourceStatus: CREATE_COMPLETE
+    ResourceType: AWS::ApiGateway::RestApi
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:42:04.285000+00:00'
+  - EventId: ApiGatewayAPI-CREATE_IN_PROGRESS-2023-11-24T08:42:03.958Z
+    LogicalResourceId: ApiGatewayAPI
+    PhysicalResourceId: gygxyenfya
+    ResourceProperties: '{"Body":{"openapi":"3.0.0","paths":{"/{id}":{"options":{"summary":"CORS
+      support","responses":{"200":{"headers":{"Access-Control-Allow-Origin":{"schema":{"type":"string"}},"Access-Control-Allow-Methods":{"schema":{"type":"string"}}},"description":"Default
+      response for CORS method"}},"x-amazon-apigateway-integration":{"requestTemplates":{"application/json":"{\n  \"statusCode\"
+      : 200\n}\n"},"responses":{"default":{"responseParameters":{"method.response.header.Access-Control-Allow-Methods":"''DELETE,OPTIONS,PARAMETERS,PUT''","method.response.header.Access-Control-Allow-Origin":"''*''"},"responseTemplates":{"application/json":"{}\n"},"statusCode":"200"}},"type":"mock"}},"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true,"example":"1"}],"delete":{"summary":"?????RSSfeed?????API","responses":{"200":{"description":"Content
+      deleted from the RSS feed"}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-DeleteRSSFeedFunction-TFjueFxXqdgJ/invocations"}},"put":{"summary":"?????RSSfeed?????API","requestBody":{"content":{"text/plain":{"schema":{"type":"string","example":"Updated
+      Content"}}},"required":true},"responses":{"200":{"description":"Content updated
+      in the RSS feed"}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-PutRSSFeedFunction-rUDHeTdCvqkH/invocations"}}},"/":{"post":{"summary":"RSSFeed?????API","requestBody":{"content":{"application/json":{"schema":{"type":"object","required":["link"],"properties":{"link":{"type":"string","example":"http://yourwebsite.com"}}}}},"required":true},"responses":{"200":{"description":"Content
+      added to the RSS feed"}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-PostRSSFeedFunction-YjGEpsld8tUH/invocations"}},"get":{"summary":"RSSFeed?????API","responses":{"200":{"description":"Successful
+      response","x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-GetRSSFeedFunction-gxdtMAxAcEcc/invocations"},"content":{"application/xml":{"example":"<?xml
+      version=\"1.0\" encoding=\"UTF-8\"?>\n<rss version=\"2.0\">\n  <channel>\n    <title>Your
+      RSS Feed</title>\n    <link>http://yourwebsite.com</link>\n    <description>Your
+      feed description</description>\n  </channel>\n</rss>\n"}}}}},"options":{"summary":"CORS
+      support","responses":{"200":{"headers":{"Access-Control-Allow-Origin":{"schema":{"type":"string"}},"Access-Control-Allow-Methods":{"schema":{"type":"string"}}},"description":"Default
+      response for CORS method"}},"x-amazon-apigateway-integration":{"requestTemplates":{"application/json":"{\n  \"statusCode\"
+      : 200\n}\n"},"responses":{"default":{"responseParameters":{"method.response.header.Access-Control-Allow-Methods":"''GET,OPTIONS,POST''","method.response.header.Access-Control-Allow-Origin":"''*''"},"responseTemplates":{"application/json":"{}\n"},"statusCode":"200"}},"type":"mock"}}}},"info":{"title":"niwanowa-rssfeed-api","version":"1.0.0"}}}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceStatusReason: Resource creation Initiated
+    ResourceType: AWS::ApiGateway::RestApi
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:42:03.958000+00:00'
+  - EventId: ApiGatewayAPI-CREATE_IN_PROGRESS-2023-11-24T08:42:00.643Z
+    LogicalResourceId: ApiGatewayAPI
+    PhysicalResourceId: ''
+    ResourceProperties: '{"Body":{"openapi":"3.0.0","paths":{"/{id}":{"options":{"summary":"CORS
+      support","responses":{"200":{"headers":{"Access-Control-Allow-Origin":{"schema":{"type":"string"}},"Access-Control-Allow-Methods":{"schema":{"type":"string"}}},"description":"Default
+      response for CORS method"}},"x-amazon-apigateway-integration":{"requestTemplates":{"application/json":"{\n  \"statusCode\"
+      : 200\n}\n"},"responses":{"default":{"responseParameters":{"method.response.header.Access-Control-Allow-Methods":"''DELETE,OPTIONS,PARAMETERS,PUT''","method.response.header.Access-Control-Allow-Origin":"''*''"},"responseTemplates":{"application/json":"{}\n"},"statusCode":"200"}},"type":"mock"}},"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true,"example":"1"}],"delete":{"summary":"?????RSSfeed?????API","responses":{"200":{"description":"Content
+      deleted from the RSS feed"}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-DeleteRSSFeedFunction-TFjueFxXqdgJ/invocations"}},"put":{"summary":"?????RSSfeed?????API","requestBody":{"content":{"text/plain":{"schema":{"type":"string","example":"Updated
+      Content"}}},"required":true},"responses":{"200":{"description":"Content updated
+      in the RSS feed"}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-PutRSSFeedFunction-rUDHeTdCvqkH/invocations"}}},"/":{"post":{"summary":"RSSFeed?????API","requestBody":{"content":{"application/json":{"schema":{"type":"object","required":["link"],"properties":{"link":{"type":"string","example":"http://yourwebsite.com"}}}}},"required":true},"responses":{"200":{"description":"Content
+      added to the RSS feed"}},"x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-PostRSSFeedFunction-YjGEpsld8tUH/invocations"}},"get":{"summary":"RSSFeed?????API","responses":{"200":{"description":"Successful
+      response","x-amazon-apigateway-integration":{"httpMethod":"post","type":"aws_proxy","uri":"arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:339851681101:function:niwanowa-rssfeed-GetRSSFeedFunction-gxdtMAxAcEcc/invocations"},"content":{"application/xml":{"example":"<?xml
+      version=\"1.0\" encoding=\"UTF-8\"?>\n<rss version=\"2.0\">\n  <channel>\n    <title>Your
+      RSS Feed</title>\n    <link>http://yourwebsite.com</link>\n    <description>Your
+      feed description</description>\n  </channel>\n</rss>\n"}}}}},"options":{"summary":"CORS
+      support","responses":{"200":{"headers":{"Access-Control-Allow-Origin":{"schema":{"type":"string"}},"Access-Control-Allow-Methods":{"schema":{"type":"string"}}},"description":"Default
+      response for CORS method"}},"x-amazon-apigateway-integration":{"requestTemplates":{"application/json":"{\n  \"statusCode\"
+      : 200\n}\n"},"responses":{"default":{"responseParameters":{"method.response.header.Access-Control-Allow-Methods":"''GET,OPTIONS,POST''","method.response.header.Access-Control-Allow-Origin":"''*''"},"responseTemplates":{"application/json":"{}\n"},"statusCode":"200"}},"type":"mock"}}}},"info":{"title":"niwanowa-rssfeed-api","version":"1.0.0"}}}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceType: AWS::ApiGateway::RestApi
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:42:00.643000+00:00'
+  - EventId: GetRSSFeedFunction-CREATE_COMPLETE-2023-11-24T08:41:59.918Z
+    LogicalResourceId: GetRSSFeedFunction
+    PhysicalResourceId: niwanowa-rssfeed-GetRSSFeedFunction-gxdtMAxAcEcc
+    ResourceProperties: '{"Role":"arn:aws:iam::339851681101:role/niwanowa-rssfeed-GetRSSFeedFunctionRole-ejFRS1CjnDAL","Runtime":"python3.11","Timeout":"3","Handler":"get.lambda_handler","Code":{"S3Bucket":"aws-sam-cli-managed-default-samclisourcebucket-1iak1zwc17un8","S3Key":"niwanowa-rssfeed/326b9f132b2a43b76eac245539be30d7"},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: CREATE_COMPLETE
+    ResourceType: AWS::Lambda::Function
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:59.918000+00:00'
+  - EventId: DeleteRSSFeedFunction-CREATE_COMPLETE-2023-11-24T08:41:59.662Z
+    LogicalResourceId: DeleteRSSFeedFunction
+    PhysicalResourceId: niwanowa-rssfeed-DeleteRSSFeedFunction-TFjueFxXqdgJ
+    ResourceProperties: '{"Role":"arn:aws:iam::339851681101:role/niwanowa-rssfeed-DeleteRSSFeedFunctionRole-TSBrrcmSOSQO","Runtime":"python3.11","Timeout":"3","Handler":"delete.lambda_handler","Code":{"S3Bucket":"aws-sam-cli-managed-default-samclisourcebucket-1iak1zwc17un8","S3Key":"niwanowa-rssfeed/326b9f132b2a43b76eac245539be30d7"},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: CREATE_COMPLETE
+    ResourceType: AWS::Lambda::Function
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:59.662000+00:00'
+  - EventId: PutRSSFeedFunction-CREATE_COMPLETE-2023-11-24T08:41:59.545Z
+    LogicalResourceId: PutRSSFeedFunction
+    PhysicalResourceId: niwanowa-rssfeed-PutRSSFeedFunction-rUDHeTdCvqkH
+    ResourceProperties: '{"Role":"arn:aws:iam::339851681101:role/niwanowa-rssfeed-PutRSSFeedFunctionRole-SwiKZOSlaoxt","Runtime":"python3.11","Timeout":"3","Handler":"put.lambda_handler","Code":{"S3Bucket":"aws-sam-cli-managed-default-samclisourcebucket-1iak1zwc17un8","S3Key":"niwanowa-rssfeed/326b9f132b2a43b76eac245539be30d7"},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: CREATE_COMPLETE
+    ResourceType: AWS::Lambda::Function
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:59.545000+00:00'
+  - EventId: PostRSSFeedFunction-CREATE_COMPLETE-2023-11-24T08:41:59.371Z
+    LogicalResourceId: PostRSSFeedFunction
+    PhysicalResourceId: niwanowa-rssfeed-PostRSSFeedFunction-YjGEpsld8tUH
+    ResourceProperties: '{"Role":"arn:aws:iam::339851681101:role/niwanowa-rssfeed-PostRSSFeedFunctionRole-KjEhmkOQugr3","Runtime":"python3.11","Timeout":"3","Handler":"post.lambda_handler","Code":{"S3Bucket":"aws-sam-cli-managed-default-samclisourcebucket-1iak1zwc17un8","S3Key":"niwanowa-rssfeed/326b9f132b2a43b76eac245539be30d7"},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: CREATE_COMPLETE
+    ResourceType: AWS::Lambda::Function
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:59.371000+00:00'
+  - EventId: GetRSSFeedFunction-CREATE_IN_PROGRESS-2023-11-24T08:41:54.106Z
+    LogicalResourceId: GetRSSFeedFunction
+    PhysicalResourceId: niwanowa-rssfeed-GetRSSFeedFunction-gxdtMAxAcEcc
+    ResourceProperties: '{"Role":"arn:aws:iam::339851681101:role/niwanowa-rssfeed-GetRSSFeedFunctionRole-ejFRS1CjnDAL","Runtime":"python3.11","Timeout":"3","Handler":"get.lambda_handler","Code":{"S3Bucket":"aws-sam-cli-managed-default-samclisourcebucket-1iak1zwc17un8","S3Key":"niwanowa-rssfeed/326b9f132b2a43b76eac245539be30d7"},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceStatusReason: Resource creation Initiated
+    ResourceType: AWS::Lambda::Function
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:54.106000+00:00'
+  - EventId: DeleteRSSFeedFunction-CREATE_IN_PROGRESS-2023-11-24T08:41:53.917Z
+    LogicalResourceId: DeleteRSSFeedFunction
+    PhysicalResourceId: niwanowa-rssfeed-DeleteRSSFeedFunction-TFjueFxXqdgJ
+    ResourceProperties: '{"Role":"arn:aws:iam::339851681101:role/niwanowa-rssfeed-DeleteRSSFeedFunctionRole-TSBrrcmSOSQO","Runtime":"python3.11","Timeout":"3","Handler":"delete.lambda_handler","Code":{"S3Bucket":"aws-sam-cli-managed-default-samclisourcebucket-1iak1zwc17un8","S3Key":"niwanowa-rssfeed/326b9f132b2a43b76eac245539be30d7"},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceStatusReason: Resource creation Initiated
+    ResourceType: AWS::Lambda::Function
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:53.917000+00:00'
+  - EventId: PutRSSFeedFunction-CREATE_IN_PROGRESS-2023-11-24T08:41:53.713Z
+    LogicalResourceId: PutRSSFeedFunction
+    PhysicalResourceId: niwanowa-rssfeed-PutRSSFeedFunction-rUDHeTdCvqkH
+    ResourceProperties: '{"Role":"arn:aws:iam::339851681101:role/niwanowa-rssfeed-PutRSSFeedFunctionRole-SwiKZOSlaoxt","Runtime":"python3.11","Timeout":"3","Handler":"put.lambda_handler","Code":{"S3Bucket":"aws-sam-cli-managed-default-samclisourcebucket-1iak1zwc17un8","S3Key":"niwanowa-rssfeed/326b9f132b2a43b76eac245539be30d7"},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceStatusReason: Resource creation Initiated
+    ResourceType: AWS::Lambda::Function
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:53.713000+00:00'
+  - EventId: PostRSSFeedFunction-CREATE_IN_PROGRESS-2023-11-24T08:41:53.526Z
+    LogicalResourceId: PostRSSFeedFunction
+    PhysicalResourceId: niwanowa-rssfeed-PostRSSFeedFunction-YjGEpsld8tUH
+    ResourceProperties: '{"Role":"arn:aws:iam::339851681101:role/niwanowa-rssfeed-PostRSSFeedFunctionRole-KjEhmkOQugr3","Runtime":"python3.11","Timeout":"3","Handler":"post.lambda_handler","Code":{"S3Bucket":"aws-sam-cli-managed-default-samclisourcebucket-1iak1zwc17un8","S3Key":"niwanowa-rssfeed/326b9f132b2a43b76eac245539be30d7"},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceStatusReason: Resource creation Initiated
+    ResourceType: AWS::Lambda::Function
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:53.526000+00:00'
+  - EventId: DeleteRSSFeedFunction-CREATE_IN_PROGRESS-2023-11-24T08:41:52.395Z
+    LogicalResourceId: DeleteRSSFeedFunction
+    PhysicalResourceId: ''
+    ResourceProperties: '{"Role":"arn:aws:iam::339851681101:role/niwanowa-rssfeed-DeleteRSSFeedFunctionRole-TSBrrcmSOSQO","Runtime":"python3.11","Timeout":"3","Handler":"delete.lambda_handler","Code":{"S3Bucket":"aws-sam-cli-managed-default-samclisourcebucket-1iak1zwc17un8","S3Key":"niwanowa-rssfeed/326b9f132b2a43b76eac245539be30d7"},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceType: AWS::Lambda::Function
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:52.395000+00:00'
+  - EventId: GetRSSFeedFunction-CREATE_IN_PROGRESS-2023-11-24T08:41:52.386Z
+    LogicalResourceId: GetRSSFeedFunction
+    PhysicalResourceId: ''
+    ResourceProperties: '{"Role":"arn:aws:iam::339851681101:role/niwanowa-rssfeed-GetRSSFeedFunctionRole-ejFRS1CjnDAL","Runtime":"python3.11","Timeout":"3","Handler":"get.lambda_handler","Code":{"S3Bucket":"aws-sam-cli-managed-default-samclisourcebucket-1iak1zwc17un8","S3Key":"niwanowa-rssfeed/326b9f132b2a43b76eac245539be30d7"},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceType: AWS::Lambda::Function
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:52.386000+00:00'
+  - EventId: PostRSSFeedFunction-CREATE_IN_PROGRESS-2023-11-24T08:41:52.109Z
+    LogicalResourceId: PostRSSFeedFunction
+    PhysicalResourceId: ''
+    ResourceProperties: '{"Role":"arn:aws:iam::339851681101:role/niwanowa-rssfeed-PostRSSFeedFunctionRole-KjEhmkOQugr3","Runtime":"python3.11","Timeout":"3","Handler":"post.lambda_handler","Code":{"S3Bucket":"aws-sam-cli-managed-default-samclisourcebucket-1iak1zwc17un8","S3Key":"niwanowa-rssfeed/326b9f132b2a43b76eac245539be30d7"},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceType: AWS::Lambda::Function
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:52.109000+00:00'
+  - EventId: PutRSSFeedFunction-CREATE_IN_PROGRESS-2023-11-24T08:41:52.072Z
+    LogicalResourceId: PutRSSFeedFunction
+    PhysicalResourceId: ''
+    ResourceProperties: '{"Role":"arn:aws:iam::339851681101:role/niwanowa-rssfeed-PutRSSFeedFunctionRole-SwiKZOSlaoxt","Runtime":"python3.11","Timeout":"3","Handler":"put.lambda_handler","Code":{"S3Bucket":"aws-sam-cli-managed-default-samclisourcebucket-1iak1zwc17un8","S3Key":"niwanowa-rssfeed/326b9f132b2a43b76eac245539be30d7"},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceType: AWS::Lambda::Function
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:52.072000+00:00'
+  - EventId: GetRSSFeedFunctionRole-CREATE_COMPLETE-2023-11-24T08:41:51.073Z
+    LogicalResourceId: GetRSSFeedFunctionRole
+    PhysicalResourceId: niwanowa-rssfeed-GetRSSFeedFunctionRole-ejFRS1CjnDAL
+    ResourceProperties: '{"ManagedPolicyArns":["arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"],"AssumeRolePolicyDocument":{"Version":"2012-10-17","Statement":[{"Action":["sts:AssumeRole"],"Effect":"Allow","Principal":{"Service":["lambda.amazonaws.com"]}}]},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: CREATE_COMPLETE
+    ResourceType: AWS::IAM::Role
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:51.073000+00:00'
+  - EventId: DeleteRSSFeedFunctionRole-CREATE_COMPLETE-2023-11-24T08:41:51.007Z
+    LogicalResourceId: DeleteRSSFeedFunctionRole
+    PhysicalResourceId: niwanowa-rssfeed-DeleteRSSFeedFunctionRole-TSBrrcmSOSQO
+    ResourceProperties: '{"ManagedPolicyArns":["arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"],"AssumeRolePolicyDocument":{"Version":"2012-10-17","Statement":[{"Action":["sts:AssumeRole"],"Effect":"Allow","Principal":{"Service":["lambda.amazonaws.com"]}}]},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: CREATE_COMPLETE
+    ResourceType: AWS::IAM::Role
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:51.007000+00:00'
+  - EventId: PostRSSFeedFunctionRole-CREATE_COMPLETE-2023-11-24T08:41:50.811Z
+    LogicalResourceId: PostRSSFeedFunctionRole
+    PhysicalResourceId: niwanowa-rssfeed-PostRSSFeedFunctionRole-KjEhmkOQugr3
+    ResourceProperties: '{"ManagedPolicyArns":["arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"],"AssumeRolePolicyDocument":{"Version":"2012-10-17","Statement":[{"Action":["sts:AssumeRole"],"Effect":"Allow","Principal":{"Service":["lambda.amazonaws.com"]}}]},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: CREATE_COMPLETE
+    ResourceType: AWS::IAM::Role
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:50.811000+00:00'
+  - EventId: PutRSSFeedFunctionRole-CREATE_COMPLETE-2023-11-24T08:41:50.750Z
+    LogicalResourceId: PutRSSFeedFunctionRole
+    PhysicalResourceId: niwanowa-rssfeed-PutRSSFeedFunctionRole-SwiKZOSlaoxt
+    ResourceProperties: '{"ManagedPolicyArns":["arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"],"AssumeRolePolicyDocument":{"Version":"2012-10-17","Statement":[{"Action":["sts:AssumeRole"],"Effect":"Allow","Principal":{"Service":["lambda.amazonaws.com"]}}]},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: CREATE_COMPLETE
+    ResourceType: AWS::IAM::Role
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:50.750000+00:00'
+  - EventId: GetRSSFeedFunctionRole-CREATE_IN_PROGRESS-2023-11-24T08:41:34.732Z
+    LogicalResourceId: GetRSSFeedFunctionRole
+    PhysicalResourceId: niwanowa-rssfeed-GetRSSFeedFunctionRole-ejFRS1CjnDAL
+    ResourceProperties: '{"ManagedPolicyArns":["arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"],"AssumeRolePolicyDocument":{"Version":"2012-10-17","Statement":[{"Action":["sts:AssumeRole"],"Effect":"Allow","Principal":{"Service":["lambda.amazonaws.com"]}}]},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceStatusReason: Resource creation Initiated
+    ResourceType: AWS::IAM::Role
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:34.732000+00:00'
+  - EventId: DeleteRSSFeedFunctionRole-CREATE_IN_PROGRESS-2023-11-24T08:41:34.726Z
+    LogicalResourceId: DeleteRSSFeedFunctionRole
+    PhysicalResourceId: niwanowa-rssfeed-DeleteRSSFeedFunctionRole-TSBrrcmSOSQO
+    ResourceProperties: '{"ManagedPolicyArns":["arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"],"AssumeRolePolicyDocument":{"Version":"2012-10-17","Statement":[{"Action":["sts:AssumeRole"],"Effect":"Allow","Principal":{"Service":["lambda.amazonaws.com"]}}]},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceStatusReason: Resource creation Initiated
+    ResourceType: AWS::IAM::Role
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:34.726000+00:00'
+  - EventId: PutRSSFeedFunctionRole-CREATE_IN_PROGRESS-2023-11-24T08:41:34.628Z
+    LogicalResourceId: PutRSSFeedFunctionRole
+    PhysicalResourceId: niwanowa-rssfeed-PutRSSFeedFunctionRole-SwiKZOSlaoxt
+    ResourceProperties: '{"ManagedPolicyArns":["arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"],"AssumeRolePolicyDocument":{"Version":"2012-10-17","Statement":[{"Action":["sts:AssumeRole"],"Effect":"Allow","Principal":{"Service":["lambda.amazonaws.com"]}}]},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceStatusReason: Resource creation Initiated
+    ResourceType: AWS::IAM::Role
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:34.628000+00:00'
+  - EventId: PostRSSFeedFunctionRole-CREATE_IN_PROGRESS-2023-11-24T08:41:34.587Z
+    LogicalResourceId: PostRSSFeedFunctionRole
+    PhysicalResourceId: niwanowa-rssfeed-PostRSSFeedFunctionRole-KjEhmkOQugr3
+    ResourceProperties: '{"ManagedPolicyArns":["arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"],"AssumeRolePolicyDocument":{"Version":"2012-10-17","Statement":[{"Action":["sts:AssumeRole"],"Effect":"Allow","Principal":{"Service":["lambda.amazonaws.com"]}}]},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceStatusReason: Resource creation Initiated
+    ResourceType: AWS::IAM::Role
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:34.587000+00:00'
+  - EventId: DeleteRSSFeedFunctionRole-CREATE_IN_PROGRESS-2023-11-24T08:41:33.110Z
+    LogicalResourceId: DeleteRSSFeedFunctionRole
+    PhysicalResourceId: ''
+    ResourceProperties: '{"ManagedPolicyArns":["arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"],"AssumeRolePolicyDocument":{"Version":"2012-10-17","Statement":[{"Action":["sts:AssumeRole"],"Effect":"Allow","Principal":{"Service":["lambda.amazonaws.com"]}}]},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceType: AWS::IAM::Role
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:33.110000+00:00'
+  - EventId: PutRSSFeedFunctionRole-CREATE_IN_PROGRESS-2023-11-24T08:41:33.090Z
+    LogicalResourceId: PutRSSFeedFunctionRole
+    PhysicalResourceId: ''
+    ResourceProperties: '{"ManagedPolicyArns":["arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"],"AssumeRolePolicyDocument":{"Version":"2012-10-17","Statement":[{"Action":["sts:AssumeRole"],"Effect":"Allow","Principal":{"Service":["lambda.amazonaws.com"]}}]},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceType: AWS::IAM::Role
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:33.090000+00:00'
+  - EventId: PostRSSFeedFunctionRole-CREATE_IN_PROGRESS-2023-11-24T08:41:33.064Z
+    LogicalResourceId: PostRSSFeedFunctionRole
+    PhysicalResourceId: ''
+    ResourceProperties: '{"ManagedPolicyArns":["arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"],"AssumeRolePolicyDocument":{"Version":"2012-10-17","Statement":[{"Action":["sts:AssumeRole"],"Effect":"Allow","Principal":{"Service":["lambda.amazonaws.com"]}}]},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceType: AWS::IAM::Role
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:33.064000+00:00'
+  - EventId: GetRSSFeedFunctionRole-CREATE_IN_PROGRESS-2023-11-24T08:41:33.056Z
+    LogicalResourceId: GetRSSFeedFunctionRole
+    PhysicalResourceId: ''
+    ResourceProperties: '{"ManagedPolicyArns":["arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"],"AssumeRolePolicyDocument":{"Version":"2012-10-17","Statement":[{"Action":["sts:AssumeRole"],"Effect":"Allow","Principal":{"Service":["lambda.amazonaws.com"]}}]},"Tags":[{"Value":"SAM","Key":"lambda:createdBy"}]}'
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceType: AWS::IAM::Role
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:33.056000+00:00'
+  - EventId: 432047d0-8aa5-11ee-a335-0a74cd3187b5
+    LogicalResourceId: niwanowa-rssfeed
+    PhysicalResourceId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    ResourceStatus: CREATE_IN_PROGRESS
+    ResourceStatusReason: User Initiated
+    ResourceType: AWS::CloudFormation::Stack
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:41:29.541000+00:00'
+  - EventId: 2e461ac0-8aa4-11ee-9c62-06d4feb9e9af
+    LogicalResourceId: niwanowa-rssfeed
+    PhysicalResourceId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    ResourceStatus: REVIEW_IN_PROGRESS
+    ResourceStatusReason: User Initiated
+    ResourceType: AWS::CloudFormation::Stack
+    StackId: arn:aws:cloudformation:ap-northeast-1:339851681101:stack/niwanowa-rssfeed/2e46b700-8aa4-11ee-9c62-06d4feb9e9af
+    StackName: niwanowa-rssfeed
+    Timestamp: '2023-11-24T08:33:45.180000+00:00'

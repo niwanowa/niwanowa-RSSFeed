@@ -1,0 +1,37 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Swagger UI",
+            "type": "shell",
+            "command": "bash -c \"docker run -d -p 80:8080 -e \"SWAGGER_JSON=/test.json\" -v $(pwd)/niwanowa_rssfeed_api/swagger.json:/test.json swaggerapi/swagger-editor\""
+        },
+        {
+            "label": "Docker pull Swagger UI",
+            "type": "shell",
+            "command": "bash -c \"docker pull swaggerapi/swagger-editor\""
+        },
+        { 
+            "label": "open in chrome",
+            "type": "shell",
+            "command": "open -a \"Google Chrome\" http://localhost:80"
+        },
+        {
+            "label": "Docker pull and run Swagger UI",
+            "type": "shell",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "Docker pull Swagger UI",
+                "Swagger UI",
+                "open in chrome"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+        }
+    ]
+}
