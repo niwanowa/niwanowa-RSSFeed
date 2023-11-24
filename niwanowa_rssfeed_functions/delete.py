@@ -17,5 +17,13 @@ import json
 import boto3
 
 def lambda_handler(event, context):
+  # Lambdaプロキシ統合に対応したレスポンスを返す
+  response = {
+    "statusCode": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": json.dumps({"message": "Content deleted from the RSS feed"})
+  }
 
-    return {"message": "DELETE"}
+  return response
