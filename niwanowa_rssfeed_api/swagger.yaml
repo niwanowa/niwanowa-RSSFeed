@@ -88,3 +88,14 @@ paths:
         uri:
           Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${PutRSSFeedFunction.Arn}/invocations
 
+  /reset:
+    get:
+      summary: 'RSSFeedをリセット(初回生成)するAPI'
+      responses:
+        '200':
+          description: 'Content added to the RSS feed'
+      x-amazon-apigateway-integration:
+        httpMethod: post
+        type: aws_proxy
+        uri:
+          Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${ResetRSSFeedFunction.Arn}/invocations

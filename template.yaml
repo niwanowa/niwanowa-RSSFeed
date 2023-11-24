@@ -11,7 +11,7 @@ Globals:
 
 Resources:
 
-  ApiGatewayAPI:
+  ApiGateway:
     Type: AWS::Serverless::Api
     Properties:
       StageName: Prod
@@ -31,7 +31,7 @@ Resources:
         GetRSSFeed:
           Type: Api
           Properties:
-            RestApiId: !Ref ApiGatewayAPI
+            RestApiId: !Ref ApiGateway
             Path: /
             Method: get
 
@@ -44,7 +44,7 @@ Resources:
         PostRSSFeed:
           Type: Api
           Properties:
-            RestApiId: !Ref ApiGatewayAPI
+            RestApiId: !Ref ApiGateway
             Path: /
             Method: post
 
@@ -57,7 +57,7 @@ Resources:
         DeleteRSSFeed:
           Type: Api
           Properties:
-            RestApiId: !Ref ApiGatewayAPI
+            RestApiId: !Ref ApiGateway
             Path: /{id}
             Method: delete
 
@@ -70,7 +70,24 @@ Resources:
         PutRSSFeed:
           Type: Api
           Properties:
-            RestApiId: !Ref ApiGatewayAPI
+            RestApiId: !Ref ApiGateway
             Path: /{id}
             Method: put
 
+  ResetRSSFeedFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: niwanowa_rssfeed_functions/reset/
+      Handler: reset.lambda_handler
+      Events:
+        ResetRSSFeed:
+          Type: Api
+          Properties:
+            RestApiId: !Ref ApiGateway
+            Path: /reset
+            Method: get
+
+Outputs:
+  ApiGateway:
+    Description: "API Gateway endpoint URL for Prod stage"
+    Value: !Sub "https://${ApiGateway}.execute-api.${AWS::Region}.amazonaws.com/Prod/"
