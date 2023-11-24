@@ -34,7 +34,7 @@ def lambda_handler(event, context):
         "headers": {
             "Content-Type": "application/json"
         },
-        "body": json.dumps({"message": "POST"})
+        "body": json.dumps({"message": "Content added to the RSS feed"})
     }
 
     return response
