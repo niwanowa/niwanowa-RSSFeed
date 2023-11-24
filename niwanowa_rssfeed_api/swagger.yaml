@@ -87,3 +87,4 @@ paths:
         type: aws_proxy
         uri:
           Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${PutRSSFeedFunction.Arn}/invocations
+

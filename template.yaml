@@ -25,7 +25,7 @@ Resources:
   GetRSSFeedFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: niwanowa_rssfeed_functions/
+      CodeUri: niwanowa_rssfeed_functions/get/
       Handler: get.lambda_handler
       Events:
         GetRSSFeed:
@@ -38,7 +38,7 @@ Resources:
   PostRSSFeedFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: niwanowa_rssfeed_functions/
+      CodeUri: niwanowa_rssfeed_functions/post/
       Handler: post.lambda_handler
       Events:
         PostRSSFeed:
@@ -51,7 +51,7 @@ Resources:
   DeleteRSSFeedFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: niwanowa_rssfeed_functions/
+      CodeUri: niwanowa_rssfeed_functions/delete/
       Handler: delete.lambda_handler
       Events:
         DeleteRSSFeed:
@@ -64,7 +64,7 @@ Resources:
   PutRSSFeedFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: niwanowa_rssfeed_functions/
+      CodeUri: niwanowa_rssfeed_functions/put/
       Handler: put.lambda_handler
       Events:
         PutRSSFeed:
@@ -73,3 +73,4 @@ Resources:
             RestApiId: !Ref ApiGatewayAPI
             Path: /{id}
             Method: put
+
