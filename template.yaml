@@ -21,6 +21,11 @@ Resources:
           Name: AWS::Include
           Parameters:
             Location: "./niwanowa_rssfeed_api/swagger.yaml"
+  
+  S3File:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub niwanowa-rssfeed-${AWS::AccountId}-${AWS::StackName}
 
   GetRSSFeedFunction:
     Type: AWS::Serverless::Function
