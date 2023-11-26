@@ -49,9 +49,11 @@ def lambda_handler(event, context):
 
     # Lambdaプロキシ統合に対応したレスポンスを返す
     response = {
-      "statusCode": 200,
-      "headers": {
-        "Content-Type": "application/json"
-      },
-      "body": json.dumps({"message": "Content added to the RSS feed"})
+        "statusCode": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "body": json.dumps({"message": "Content added to the RSS feed"})
     }
+
+    return response
