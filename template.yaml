@@ -31,6 +31,9 @@ Resources:
     Properties:
       CodeUri: niwanowa_rssfeed_functions/get/
       Handler: get.lambda_handler
+      Environment:
+        Variables:
+          BUCKET_NAME: !Ref S3File
       Events:
         GetRSSFeed:
           Type: Api
@@ -38,12 +41,18 @@ Resources:
             RestApiId: !Ref ApiGateway
             Path: /
             Method: get
+      Policies:
+        - S3CrudPolicy:
+            BucketName: !Ref S3File
 
   PostRSSFeedFunction:
     Type: AWS::Serverless::Function
     Properties:
       CodeUri: niwanowa_rssfeed_functions/post/
       Handler: post.lambda_handler
+      Environment:
+        Variables:
+          BUCKET_NAME: !Ref S3File
       Events:
         PostRSSFeed:
           Type: Api
@@ -51,12 +60,18 @@ Resources:
             RestApiId: !Ref ApiGateway
             Path: /
             Method: post
+      Policies:
+        - S3CrudPolicy:
+            BucketName: !Ref S3File
 
   DeleteRSSFeedFunction:
     Type: AWS::Serverless::Function
     Properties:
       CodeUri: niwanowa_rssfeed_functions/delete/
       Handler: delete.lambda_handler
+      Environment:
+        Variables:
+          BUCKET_NAME: !Ref S3File
       Events:
         DeleteRSSFeed:
           Type: Api
@@ -64,12 +79,18 @@ Resources:
             RestApiId: !Ref ApiGateway
             Path: /{id}
             Method: delete
+      Policies:
+        - S3CrudPolicy:
+            BucketName: !Ref S3File
 
   PutRSSFeedFunction:
     Type: AWS::Serverless::Function
     Properties:
       CodeUri: niwanowa_rssfeed_functions/put/
       Handler: put.lambda_handler
+      Environment:
+        Variables:
+          BUCKET_NAME: !Ref S3File
       Events:
         PutRSSFeed:
           Type: Api
@@ -77,6 +98,9 @@ Resources:
             RestApiId: !Ref ApiGateway
             Path: /{id}
             Method: put
+      Policies:
+        - S3CrudPolicy:
+            BucketName: !Ref S3File
 
   ResetRSSFeedFunction:
     Type: AWS::Serverless::Function
