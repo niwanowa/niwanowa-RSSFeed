@@ -93,7 +93,7 @@ paths:
       summary: 'RSSFeedをリセット(初回生成)するAPI'
       responses:
         '200':
-          description: 'Content added to the RSS feed'
+          description: 'Initialized RSSFeed'
       x-amazon-apigateway-integration:
         httpMethod: post
         type: aws_proxy

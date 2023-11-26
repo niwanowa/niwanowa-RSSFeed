@@ -10,7 +10,6 @@ Globals:
     Runtime: python3.11
 
 Resources:
-
   ApiGateway:
     Type: AWS::Serverless::Api
     Properties:
@@ -25,7 +24,7 @@ Resources:
   S3File:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: !Sub niwanowa-rssfeed-${AWS::AccountId}-${AWS::StackName}
+      BucketName: !Sub "${AWS::StackName}-rssfeed-${AWS::AccountId}"
 
   GetRSSFeedFunction:
     Type: AWS::Serverless::Function
@@ -84,6 +83,9 @@ Resources:
     Properties:
       CodeUri: niwanowa_rssfeed_functions/reset/
       Handler: reset.lambda_handler
+      Environment:
+        Variables:
+          BUCKET_NAME: !Ref S3File
       Events:
         ResetRSSFeed:
           Type: Api
@@ -91,6 +93,9 @@ Resources:
             RestApiId: !Ref ApiGateway
             Path: /reset
             Method: get
+      Policies:
+        - S3CrudPolicy:
+            BucketName: !Ref S3File
 
 Outputs:
   ApiGateway:
