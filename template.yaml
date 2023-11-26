@@ -6,7 +6,7 @@ Description: >
 # More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
 Globals:
   Function:
-    Timeout: 3
+    Timeout: 15
     Runtime: python3.11
 
 Resources:
@@ -110,6 +110,7 @@ Resources:
       Environment:
         Variables:
           BUCKET_NAME: !Ref S3File
+          FILE_NAME: 'rss.xml'
       Events:
         ResetRSSFeed:
           Type: Api

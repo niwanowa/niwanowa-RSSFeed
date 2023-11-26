@@ -8,6 +8,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 boto3 = "^1.29.6"
+feedparser = "^6.0.10"
+feedgenerator = "^2.1.0"
 
 
 [build-system]
