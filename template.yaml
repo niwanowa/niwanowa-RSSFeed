@@ -53,6 +53,7 @@ Resources:
       Environment:
         Variables:
           BUCKET_NAME: !Ref S3File
+          FILE_NAME: 'rss.xml'
       Events:
         PostRSSFeed:
           Type: Api
