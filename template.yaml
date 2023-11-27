@@ -19,7 +19,7 @@ Resources:
         'Fn::Transform':
           Name: AWS::Include
           Parameters:
-            Location: "./niwanowa_rssfeed_api/swagger.yaml"
+            Location: "./niwanowa-rssfeed-api/swagger.yaml"
   
   S3File:
     Type: AWS::S3::Bucket
@@ -29,7 +29,7 @@ Resources:
   GetRSSFeedFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: niwanowa_rssfeed_functions/get/
+      CodeUri: niwanowa-rssfeed-functions/get/
       Handler: get.lambda_handler
       Environment:
         Variables:
@@ -48,7 +48,7 @@ Resources:
   PostRSSFeedFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: niwanowa_rssfeed_functions/post/
+      CodeUri: niwanowa-rssfeed-functions/post/
       Handler: post.lambda_handler
       Environment:
         Variables:
@@ -68,7 +68,7 @@ Resources:
   DeleteRSSFeedFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: niwanowa_rssfeed_functions/delete/
+      CodeUri: niwanowa-rssfeed-functions/delete/
       Handler: delete.lambda_handler
       Environment:
         Variables:
@@ -87,7 +87,7 @@ Resources:
   PutRSSFeedFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: niwanowa_rssfeed_functions/put/
+      CodeUri: niwanowa-rssfeed-functions/put/
       Handler: put.lambda_handler
       Environment:
         Variables:
@@ -106,7 +106,7 @@ Resources:
   ResetRSSFeedFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: niwanowa_rssfeed_functions/reset/
+      CodeUri: niwanowa-rssfeed-functions/reset/
       Handler: reset.lambda_handler
       Environment:
         Variables:
