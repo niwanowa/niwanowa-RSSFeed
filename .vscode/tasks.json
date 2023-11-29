@@ -15,23 +15,6 @@
             "label": "open in chrome",
             "type": "shell",
             "command": "open -a \"Google Chrome\" http://localhost:80"
-        },
-        {
-            "label": "Docker pull and run Swagger UI",
-            "type": "shell",
-            "dependsOrder": "sequence",
-            "dependsOn": [
-                "Docker pull Swagger UI",
-                "Swagger UI",
-                "open in chrome"
-            ],
-            "presentation": {
-                "reveal": "always",
-                "panel": "new"
-            },
-            "runOptions": {
-                "runOn": "folderOpen"
-            }
         }
     ]
 }
