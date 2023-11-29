@@ -15,7 +15,7 @@ import json
 import boto3
 import os
 import feedgenerator
-from datetime import datetime
+from datetime import datetime, timezone
 
 def lambda_handler(event, context):
     # S3クライアント作成
@@ -51,6 +51,7 @@ def lambda_handler(event, context):
         title=entry_title,
         link=entry_link,
         description=entry_summary,
+        pubdate=datetime.now(timezone.utc)
     )
 
     # RSSフィードのXMLを生成

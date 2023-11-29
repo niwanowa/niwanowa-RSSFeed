@@ -23,7 +23,7 @@ import boto3
 import os
 import feedgenerator
 import feedparser
-from datetime import datetime
+from datetime import datetime, timezone
 import requests
 from bs4 import BeautifulSoup
 import time
@@ -61,9 +61,9 @@ def lambda_handler(event, context):
     for entry in feed_parser.entries:
         print(entry)
         feed_generator.add_item(
-            title=entry.title,
-            link=entry.link,
-            description=entry.summary,
+            title=entry.get('title'),
+            link=entry.get('link'),
+            description=entry.get('description', 'description is empty'),
             pubdate=datetime.fromtimestamp(time.mktime(entry.updated_parsed)),
         )
 
@@ -81,7 +81,7 @@ def lambda_handler(event, context):
         title=page_title,
         link=link,
         description=page_title,
-        pubdate=datetime.now(),
+        pubdate=datetime.now(timezone.utc),
     )
 
     # Stringに書き出し
