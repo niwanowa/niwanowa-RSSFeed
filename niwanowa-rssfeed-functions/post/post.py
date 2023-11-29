@@ -59,6 +59,7 @@ def lambda_handler(event, context):
 
     # Feedオブジェクトにパーサーのエントリーを追加
     for entry in feed_parser.entries:
+        print(entry)
         feed_generator.add_item(
             title=entry.title,
             link=entry.link,
