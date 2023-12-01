@@ -28,6 +28,8 @@ import requests
 from bs4 import BeautifulSoup
 import time
 
+os.environ['TZ'] = "UTC"
+
 def lambda_handler(event, context):
     print(event)
     # S3クライアント作成
@@ -81,7 +83,7 @@ def lambda_handler(event, context):
         title=page_title,
         link=link,
         description=page_title,
-        pubdate=datetime.now(timezone.utc),
+        pubdate=datetime.now(),
     )
 
     # Stringに書き出し
