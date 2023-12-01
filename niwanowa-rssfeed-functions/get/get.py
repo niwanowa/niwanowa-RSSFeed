@@ -50,20 +50,4 @@ def lambda_handler(event, context):
         "body": response['Body'].read().decode('utf-8')
     }
 
-
-    # response = {
-    #     "statusCode": 200,
-    #     "headers": {
-    #         "Content-Type": "application/xml"
-    #     },
-    #     "body": """<?xml version="1.0" encoding="UTF-8"?>
-    #         <rss version="2.0">
-    #             <channel>
-    #                 <title>Your RSS Feed</title>
-    #                 <link>http://yourwebsite.com</link>
-    #                 <description>Your feed description</description>
-    #             </channel>
-    #         </rss>"""
-    # }
-
     return response
