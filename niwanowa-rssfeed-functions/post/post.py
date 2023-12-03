@@ -31,7 +31,12 @@ import time
 os.environ['TZ'] = "UTC"
 
 def lambda_handler(event, context):
+    print("event")
     print(event)
+
+    print("context")
+    print(context)
+    
     # S3クライアント作成
     s3 = boto3.client('s3')
 
